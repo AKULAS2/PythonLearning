@@ -1,0 +1,1 @@
+customer_names_list = ['Srikanth', 'Kiran']
