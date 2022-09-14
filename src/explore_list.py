@@ -1,5 +1,6 @@
 customer_names_list = ['Srikanth', 'Kiran', 'Aravind', 'Srikanth', 'Ravi']
-customer_sur_names_list = ['Akula', 'AKula', 'Thangella', 'Srikanth', 'Itha', 'Thangella']
+customer_sur_names_list = ['Akula', 'AKula', 'Aravind', 'Srikanth', 'Itha', 'Thangella']
+new_list = ['Thangella']
 name_list_as_string = "Boss"
 
 #from here I will start working with Predefind methods in List
@@ -15,6 +16,10 @@ customer_sur_names_list.insert(0,'Arjun')
 customer_sur_names_list.pop(1)
 customer_names_list.remove('Srikanth')
 customer_sur_names_list.reverse()
+customer_names_list.sort(reverse=True)
+
+for i in range(3):
+    customer_sur_names_list.append('Thangella')
 
 
 #print('Print the customer_names_list variable value:', customer_names_list)
@@ -27,3 +32,4 @@ print('Print the index function value:', index_function_variable)
 print('Print the insert function value:', customer_sur_names_list)
 print('Print the Pop function value:', customer_sur_names_list)
 print('Print the reverse function value:', customer_sur_names_list)
+print('Print the new_list value from for loop:', new_list)
